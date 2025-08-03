@@ -1,8 +1,3 @@
-function greet(name = "Guest") {
-    console.log(`Hello ${name}`);
-    
-}
-
 function createUser(name, age = 18, role = "user"){
     return {
         name: name,
@@ -13,6 +8,7 @@ function createUser(name, age = 18, role = "user"){
 
 console.log(createUser("Dev"));
 console.log(createUser("Nguyen Van A", 20, "admin"));
+
 
 
 
